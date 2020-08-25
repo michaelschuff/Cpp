@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C99502B2488772700B38653 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C99502A2488772700B38653 /* main.cpp */; };
+		4C99505724887A3100B38653 /* Vector2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C99503B248877EC00B38653 /* Vector2D.hpp */; };
+		4C99505824887A3100B38653 /* SplinePoint2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C99503E248877FE00B38653 /* SplinePoint2D.hpp */; };
+		4C99505924887A3100B38653 /* Spline2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C9950412488781200B38653 /* Spline2D.hpp */; };
+		4C99505A24887A3100B38653 /* Hamiltonian.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C9950502488794C00B38653 /* Hamiltonian.hpp */; };
+		4C99505B24887A3100B38653 /* MathFunctions.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C9950442488781F00B38653 /* MathFunctions.hpp */; };
+		4C99505C24888F0700B38653 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C99503A248877EC00B38653 /* Vector2D.cpp */; };
+		4C99505D24888F0700B38653 /* SplinePoint2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C99503D248877FE00B38653 /* SplinePoint2D.cpp */; };
+		4C99505E24888F0700B38653 /* Spline2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C9950402488781200B38653 /* Spline2D.cpp */; };
+		4C99505F24888F0700B38653 /* Hamiltonian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C99504F2488794C00B38653 /* Hamiltonian.cpp */; };
+		4C99506024888F0700B38653 /* MathFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C9950432488781F00B38653 /* MathFunctions.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C9950222488772700B38653 /* Road Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9950262488772700B38653 /* Road Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Road Generator-Info.plist"; path = "../Road Generator-Info.plist"; sourceTree = "<group>"; };
+		4C9950272488772700B38653 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		4C9950292488772700B38653 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		4C99502A2488772700B38653 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C99503A248877EC00B38653 /* Vector2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2D.cpp; path = "Road Generator/Vector2D.cpp"; sourceTree = SOURCE_ROOT; };
+		4C99503B248877EC00B38653 /* Vector2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Vector2D.hpp; path = "Road Generator/Vector2D.hpp"; sourceTree = SOURCE_ROOT; };
+		4C99503D248877FE00B38653 /* SplinePoint2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SplinePoint2D.cpp; path = "Road Generator/SplinePoint2D.cpp"; sourceTree = SOURCE_ROOT; };
+		4C99503E248877FE00B38653 /* SplinePoint2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = SplinePoint2D.hpp; path = "Road Generator/SplinePoint2D.hpp"; sourceTree = SOURCE_ROOT; };
+		4C9950402488781200B38653 /* Spline2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Spline2D.cpp; path = "Road Generator/Spline2D.cpp"; sourceTree = SOURCE_ROOT; };
+		4C9950412488781200B38653 /* Spline2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Spline2D.hpp; path = "Road Generator/Spline2D.hpp"; sourceTree = SOURCE_ROOT; };
+		4C9950432488781F00B38653 /* MathFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MathFunctions.cpp; path = "Road Generator/MathFunctions.cpp"; sourceTree = SOURCE_ROOT; };
+		4C9950442488781F00B38653 /* MathFunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MathFunctions.hpp; path = "Road Generator/MathFunctions.hpp"; sourceTree = SOURCE_ROOT; };
+		4C99504F2488794C00B38653 /* Hamiltonian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Hamiltonian.cpp; path = "Road Generator/Hamiltonian.cpp"; sourceTree = SOURCE_ROOT; };
+		4C9950502488794C00B38653 /* Hamiltonian.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Hamiltonian.hpp; path = "Road Generator/Hamiltonian.hpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C99501E2488772700B38653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C9950182488772700B38653 = {
+			isa = PBXGroup;
+			children = (
+				4C9950242488772700B38653 /* Road Generator */,
+				4C9950232488772700B38653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9950232488772700B38653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9950222488772700B38653 /* Road Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9950242488772700B38653 /* Road Generator */ = {
+			isa = PBXGroup;
+			children = (
+				4C9950272488772700B38653 /* ResourcePath.mm */,
+				4C9950292488772700B38653 /* ResourcePath.hpp */,
+				4C99502A2488772700B38653 /* main.cpp */,
+				4C99502C2488772700B38653 /* Resources */,
+				4C9950252488772700B38653 /* Supporting Files */,
+			);
+			path = "Road Generator";
+			sourceTree = "<group>";
+		};
+		4C9950252488772700B38653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C9950262488772700B38653 /* Road Generator-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C99502C2488772700B38653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C99503A248877EC00B38653 /* Vector2D.cpp */,
+				4C99503D248877FE00B38653 /* SplinePoint2D.cpp */,
+				4C9950402488781200B38653 /* Spline2D.cpp */,
+				4C99504F2488794C00B38653 /* Hamiltonian.cpp */,
+				4C9950432488781F00B38653 /* MathFunctions.cpp */,
+				4C99503B248877EC00B38653 /* Vector2D.hpp */,
+				4C99503E248877FE00B38653 /* SplinePoint2D.hpp */,
+				4C9950412488781200B38653 /* Spline2D.hpp */,
+				4C9950502488794C00B38653 /* Hamiltonian.hpp */,
+				4C9950442488781F00B38653 /* MathFunctions.hpp */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9950212488772700B38653 /* Road Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9950372488772700B38653 /* Build configuration list for PBXNativeTarget "Road Generator" */;
+			buildPhases = (
+				4C99501D2488772700B38653 /* Sources */,
+				4C99501E2488772700B38653 /* Frameworks */,
+				4C99501F2488772700B38653 /* Resources */,
+				4C9950202488772700B38653 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Road Generator";
+			productName = "Road Generator";
+			productReference = 4C9950222488772700B38653 /* Road Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9950192488772700B38653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Michael Schuff";
+				TargetAttributes = {
+					4C9950212488772700B38653 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C99501C2488772700B38653 /* Build configuration list for PBXProject "Road Generator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C9950182488772700B38653;
+			productRefGroup = 4C9950232488772700B38653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9950212488772700B38653 /* Road Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C99501F2488772700B38653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C9950202488772700B38653 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C99501D2488772700B38653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C99505C24888F0700B38653 /* Vector2D.cpp in Sources */,
+				4C99505D24888F0700B38653 /* SplinePoint2D.cpp in Sources */,
+				4C99505E24888F0700B38653 /* Spline2D.cpp in Sources */,
+				4C99505F24888F0700B38653 /* Hamiltonian.cpp in Sources */,
+				4C99506024888F0700B38653 /* MathFunctions.cpp in Sources */,
+				4C99505724887A3100B38653 /* Vector2D.hpp in Sources */,
+				4C99505824887A3100B38653 /* SplinePoint2D.hpp in Sources */,
+				4C99505924887A3100B38653 /* Spline2D.hpp in Sources */,
+				4C99505A24887A3100B38653 /* Hamiltonian.hpp in Sources */,
+				4C99505B24887A3100B38653 /* MathFunctions.hpp in Sources */,
+				4C99502B2488772700B38653 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C9950352488772700B38653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		4C9950362488772700B38653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		4C9950382488772700B38653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8BU5PTP5V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Road Generator/Road Generator-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C9950392488772700B38653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8BU5PTP5V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Road Generator/Road Generator-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C99501C2488772700B38653 /* Build configuration list for PBXProject "Road Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9950352488772700B38653 /* Debug */,
+				4C9950362488772700B38653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9950372488772700B38653 /* Build configuration list for PBXNativeTarget "Road Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9950382488772700B38653 /* Debug */,
+				4C9950392488772700B38653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9950192488772700B38653 /* Project object */;
+}

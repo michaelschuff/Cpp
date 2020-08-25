@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C30711D242ACB910029DA31 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C30711C242ACB910029DA31 /* main.cpp */; };
+		4CBCA38524341124006FDF78 /* Spline2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A48242D8EEE00A410AD /* Spline2D.hpp */; };
+		4CBCA38624341124006FDF78 /* CubicSpline2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E1BF8242EA636003C2B94 /* CubicSpline2D.hpp */; };
+		4CBCA38724341124006FDF78 /* SplinePoint2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E1BFB242EA8CB003C2B94 /* SplinePoint2D.hpp */; };
+		4CBCA38824341124006FDF78 /* CubicSplinePoint2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A45242D8DB300A410AD /* CubicSplinePoint2D.hpp */; };
+		4CBCA3892434112C006FDF78 /* Spline2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A47242D8EEE00A410AD /* Spline2D.cpp */; };
+		4CBCA38A2434112C006FDF78 /* CubicSpline2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E1BF7242EA636003C2B94 /* CubicSpline2D.cpp */; };
+		4CBCA38B2434112C006FDF78 /* SplinePoint2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7E1BFA242EA8CB003C2B94 /* SplinePoint2D.cpp */; };
+		4CBCA38C2434112C006FDF78 /* CubicSplinePoint2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A44242D8DB300A410AD /* CubicSplinePoint2D.cpp */; };
+		4CBCA38D24341132006FDF78 /* Point2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A3E242D845300A410AD /* Point2D.cpp */; };
+		4CBCA38E24341132006FDF78 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A4A242D930E00A410AD /* Vector2D.cpp */; };
+		4CBCA38F24341132006FDF78 /* MathFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A4D242D9FE200A410AD /* MathFunctions.cpp */; };
+		4CBCA39024341132006FDF78 /* Point2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A3F242D845300A410AD /* Point2D.hpp */; };
+		4CBCA39124341132006FDF78 /* Vector2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A4B242D930E00A410AD /* Vector2D.hpp */; };
+		4CBCA39224341132006FDF78 /* MathFunctions.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B8A4E242D9FE200A410AD /* MathFunctions.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C307119242ACB910029DA31 /* SplineGeneration */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SplineGeneration; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C30711C242ACB910029DA31 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4C6B8A3E242D845300A410AD /* Point2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Point2D.cpp; path = SplineGeneration/Resources/Math/Point2D.cpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A3F242D845300A410AD /* Point2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Point2D.hpp; path = SplineGeneration/Resources/Math/Point2D.hpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A44242D8DB300A410AD /* CubicSplinePoint2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CubicSplinePoint2D.cpp; path = SplineGeneration/Resources/CubicSplinePoint2D.cpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A45242D8DB300A410AD /* CubicSplinePoint2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = CubicSplinePoint2D.hpp; path = SplineGeneration/Resources/hpp/CubicSplinePoint2D.hpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A47242D8EEE00A410AD /* Spline2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Spline2D.cpp; path = SplineGeneration/Resources/Spline2D.cpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A48242D8EEE00A410AD /* Spline2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Spline2D.hpp; path = SplineGeneration/Resources/hpp/Spline2D.hpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A4A242D930E00A410AD /* Vector2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2D.cpp; path = SplineGeneration/Resources/Math/Vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A4B242D930E00A410AD /* Vector2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Vector2D.hpp; path = SplineGeneration/Resources/Math/Vector2D.hpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A4D242D9FE200A410AD /* MathFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = MathFunctions.cpp; path = SplineGeneration/Resources/Math/MathFunctions.cpp; sourceTree = SOURCE_ROOT; };
+		4C6B8A4E242D9FE200A410AD /* MathFunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = MathFunctions.hpp; path = SplineGeneration/Resources/Math/MathFunctions.hpp; sourceTree = SOURCE_ROOT; };
+		4C7E1BF7242EA636003C2B94 /* CubicSpline2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CubicSpline2D.cpp; sourceTree = "<group>"; };
+		4C7E1BF8242EA636003C2B94 /* CubicSpline2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CubicSpline2D.hpp; sourceTree = "<group>"; };
+		4C7E1BFA242EA8CB003C2B94 /* SplinePoint2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplinePoint2D.cpp; sourceTree = "<group>"; };
+		4C7E1BFB242EA8CB003C2B94 /* SplinePoint2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplinePoint2D.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C307117242ACB910029DA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C307111242ACB910029DA31 = {
+			isa = PBXGroup;
+			children = (
+				4C30711B242ACB910029DA31 /* SplineGeneration */,
+				4C30711A242ACB910029DA31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C30711A242ACB910029DA31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C307119242ACB910029DA31 /* SplineGeneration */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C30711B242ACB910029DA31 /* SplineGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				4C30711C242ACB910029DA31 /* main.cpp */,
+				4C30711E242ACB910029DA31 /* Resources */,
+			);
+			path = SplineGeneration;
+			sourceTree = "<group>";
+		};
+		4C30711E242ACB910029DA31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B8A47242D8EEE00A410AD /* Spline2D.cpp */,
+				4C7E1BF7242EA636003C2B94 /* CubicSpline2D.cpp */,
+				4C7E1BFA242EA8CB003C2B94 /* SplinePoint2D.cpp */,
+				4C6B8A44242D8DB300A410AD /* CubicSplinePoint2D.cpp */,
+				4C7E1BFE242EA94A003C2B94 /* hpp */,
+				4C7E1BFD242EA91F003C2B94 /* Math */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C7E1BFD242EA91F003C2B94 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B8A3E242D845300A410AD /* Point2D.cpp */,
+				4C6B8A4A242D930E00A410AD /* Vector2D.cpp */,
+				4C6B8A4D242D9FE200A410AD /* MathFunctions.cpp */,
+				4C6B8A3F242D845300A410AD /* Point2D.hpp */,
+				4C6B8A4B242D930E00A410AD /* Vector2D.hpp */,
+				4C6B8A4E242D9FE200A410AD /* MathFunctions.hpp */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		4C7E1BFE242EA94A003C2B94 /* hpp */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B8A48242D8EEE00A410AD /* Spline2D.hpp */,
+				4C7E1BF8242EA636003C2B94 /* CubicSpline2D.hpp */,
+				4C7E1BFB242EA8CB003C2B94 /* SplinePoint2D.hpp */,
+				4C6B8A45242D8DB300A410AD /* CubicSplinePoint2D.hpp */,
+			);
+			path = hpp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C307118242ACB910029DA31 /* SplineGeneration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C307125242ACB910029DA31 /* Build configuration list for PBXNativeTarget "SplineGeneration" */;
+			buildPhases = (
+				4C307116242ACB910029DA31 /* Sources */,
+				4C307117242ACB910029DA31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplineGeneration;
+			productName = SplineGeneration;
+			productReference = 4C307119242ACB910029DA31 /* SplineGeneration */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C307112242ACB910029DA31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Michael Schuff";
+				TargetAttributes = {
+					4C307118242ACB910029DA31 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C307115242ACB910029DA31 /* Build configuration list for PBXProject "SplineGeneration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C307111242ACB910029DA31;
+			productRefGroup = 4C30711A242ACB910029DA31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C307118242ACB910029DA31 /* SplineGeneration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C307116242ACB910029DA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBCA38D24341132006FDF78 /* Point2D.cpp in Sources */,
+				4CBCA38E24341132006FDF78 /* Vector2D.cpp in Sources */,
+				4CBCA38F24341132006FDF78 /* MathFunctions.cpp in Sources */,
+				4CBCA39024341132006FDF78 /* Point2D.hpp in Sources */,
+				4CBCA39124341132006FDF78 /* Vector2D.hpp in Sources */,
+				4CBCA39224341132006FDF78 /* MathFunctions.hpp in Sources */,
+				4CBCA3892434112C006FDF78 /* Spline2D.cpp in Sources */,
+				4CBCA38A2434112C006FDF78 /* CubicSpline2D.cpp in Sources */,
+				4CBCA38B2434112C006FDF78 /* SplinePoint2D.cpp in Sources */,
+				4CBCA38C2434112C006FDF78 /* CubicSplinePoint2D.cpp in Sources */,
+				4CBCA38524341124006FDF78 /* Spline2D.hpp in Sources */,
+				4CBCA38624341124006FDF78 /* CubicSpline2D.hpp in Sources */,
+				4CBCA38724341124006FDF78 /* SplinePoint2D.hpp in Sources */,
+				4CBCA38824341124006FDF78 /* CubicSplinePoint2D.hpp in Sources */,
+				4C30711D242ACB910029DA31 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C307123242ACB910029DA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		4C307124242ACB910029DA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		4C307126242ACB910029DA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8BU5PTP5V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C307127242ACB910029DA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8BU5PTP5V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C307115242ACB910029DA31 /* Build configuration list for PBXProject "SplineGeneration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C307123242ACB910029DA31 /* Debug */,
+				4C307124242ACB910029DA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C307125242ACB910029DA31 /* Build configuration list for PBXNativeTarget "SplineGeneration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C307126242ACB910029DA31 /* Debug */,
+				4C307127242ACB910029DA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C307112242ACB910029DA31 /* Project object */;
+}

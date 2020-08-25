@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9F5D4CE21A2737A00FEDEAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9F5D4CD21A2737A00FEDEAE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9F5D4CA21A2737A00FEDEAE /* Packet11Problem3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Packet11Problem3; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F5D4CD21A2737A00FEDEAE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D9F5D4D021A2737A00FEDEAE /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
+		D9F5D4D121A2737A00FEDEAE /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
+		D9F5D4D221A2737A00FEDEAE /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		D9F5D4D321A2737A00FEDEAE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F5D4C821A2737A00FEDEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9F5D4C221A2737A00FEDEAE = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4CC21A2737A00FEDEAE /* Packet11Problem3 */,
+				D9F5D4CB21A2737A00FEDEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F5D4CB21A2737A00FEDEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4CA21A2737A00FEDEAE /* Packet11Problem3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F5D4CC21A2737A00FEDEAE /* Packet11Problem3 */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4CD21A2737A00FEDEAE /* main.cpp */,
+				D9F5D4CF21A2737A00FEDEAE /* Resources */,
+			);
+			path = Packet11Problem3;
+			sourceTree = "<group>";
+		};
+		D9F5D4CF21A2737A00FEDEAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9F5D4D021A2737A00FEDEAE /* cute_image.jpg */,
+				D9F5D4D121A2737A00FEDEAE /* nice_music.ogg */,
+				D9F5D4D221A2737A00FEDEAE /* sansation.ttf */,
+				D9F5D4D321A2737A00FEDEAE /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F5D4C921A2737A00FEDEAE /* Packet11Problem3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F5D4D621A2737A00FEDEAE /* Build configuration list for PBXNativeTarget "Packet11Problem3" */;
+			buildPhases = (
+				D9F5D4C721A2737A00FEDEAE /* Sources */,
+				D9F5D4C821A2737A00FEDEAE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Packet11Problem3;
+			productName = Packet11Problem3;
+			productReference = D9F5D4CA21A2737A00FEDEAE /* Packet11Problem3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F5D4C321A2737A00FEDEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Michael Schuff";
+				TargetAttributes = {
+					D9F5D4C921A2737A00FEDEAE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D9F5D4C621A2737A00FEDEAE /* Build configuration list for PBXProject "Packet11Problem3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9F5D4C221A2737A00FEDEAE;
+			productRefGroup = D9F5D4CB21A2737A00FEDEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F5D4C921A2737A00FEDEAE /* Packet11Problem3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F5D4C721A2737A00FEDEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F5D4CE21A2737A00FEDEAE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9F5D4D421A2737A00FEDEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		D9F5D4D521A2737A00FEDEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		D9F5D4D721A2737A00FEDEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9F5D4D821A2737A00FEDEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F5D4C621A2737A00FEDEAE /* Build configuration list for PBXProject "Packet11Problem3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F5D4D421A2737A00FEDEAE /* Debug */,
+				D9F5D4D521A2737A00FEDEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F5D4D621A2737A00FEDEAE /* Build configuration list for PBXNativeTarget "Packet11Problem3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F5D4D721A2737A00FEDEAE /* Debug */,
+				D9F5D4D821A2737A00FEDEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F5D4C321A2737A00FEDEAE /* Project object */;
+}

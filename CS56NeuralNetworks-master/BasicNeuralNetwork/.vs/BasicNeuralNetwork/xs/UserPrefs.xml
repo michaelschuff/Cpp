@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{6A22EB57-720A-AF4C-B2C0-38C4493A7209}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Node.cs">
+    <Files>
+      <File FileName="Assets/NeuralNetwork.cs" Line="18" Column="7" />
+      <File FileName="Assets/Node.cs" Line="24" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BasicNeuralNetwork" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Node.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f928a475-f074-4697-bd6a-5fdbbae8a069" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
