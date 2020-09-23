@@ -16,21 +16,19 @@
 #include "MathFunctions.hpp"
 #include "Spline2D.hpp"
 #include "Hamiltonian.hpp"
+#include "Camera.hpp"
 
 using namespace std;
 using namespace sf;
 using namespace MathFunctions;
-
-struct circle {
-    double x, y, r;
-};
 
 
 double degrees(double);
 double radians(double);
 RectangleShape VectorLine(Vector2D, Vector2D, Color);
 RectangleShape Line(double, double, double, double, Color);
-void DrawSpline(RenderWindow&, Spline2D, double, Color);
+void DrawSpline(RenderWindow&, Spline2D, double, double, Color);
+void DrawCameras(RenderWindow&, vector<Camera>, double, const int, Color);
 vector<vector<Vector2D>> GeneratePoints(int, int, int, int, double);
 vector<Vector2D> GenerateDerivatives(vector<Vector2D>);
 
@@ -39,17 +37,18 @@ int main() {
     int width = 800;
     int height = 800;
     bool reverse = false;
-
+    double tInc = 1.0/500;
+    
     enum State {leftDown, rightDown, up};
     State mouseState = up;
 
     srand(time(NULL));
-    int rows = 2;//RandomRange((int) 2, (int)  4);
-    int columns = 2;//RandomRange((int) 2, (int) 4);
+    int rows = 2;
+    int columns = 2;
     double randomness = 0;
 
     double mx, my, controlPointRadius = 5;
-    int splinePointIndex = -1, controlPointIndex = -1;
+    int splinePointIndex = -1, controlPointIndex = -1, camIndex = -1;
 
     vector<double> multipliers = {1, 5};
     double derivativeScalar = 50;
@@ -96,7 +95,17 @@ int main() {
         spline.Reverse();
     }
 
-
+    const int numOfCams = 4;
+    vector<Camera> cams;
+    Vector2D camPos[numOfCams] = {  Vector2D(100, 100),
+                                    Vector2D(100, 700),
+                                    Vector2D(700, 100),
+                                    Vector2D(700, 700)
+    };
+    for (int i = 0; i < numOfCams; i++) {
+        cams.push_back(Camera(camPos[i].x, camPos[i].y));
+    }
+    
     RenderWindow window(VideoMode(width, height), "Road Generator");
     while (window.isOpen()) {
         Event event;
@@ -129,11 +138,24 @@ int main() {
                     double distFromPoint = sqrt(pow(mx-x, 2) + pow(my-y, 2));
                     if (distFromPoint < minDistance) {
                         minDistance = distFromPoint;
-                        splinePointIndex = i;
-                        controlPointIndex = j;
+                        if (splinePointIndex == -1 && camIndex == -1) {
+                            splinePointIndex = i;
+                            controlPointIndex = j;
+                        }
                     }
                 }
             }
+            
+            for (int i = 0; i < numOfCams; i++) {
+                double distFromPoint = sqrt(pow(mx-cams[i].x, 2) + pow(my-cams[i].y, 2));
+                if (distFromPoint < minDistance) {
+                    minDistance = distFromPoint;
+                    if (camIndex == -1 && splinePointIndex == -1) {
+                        camIndex = i;
+                    }
+                }
+            }
+            
             if (splinePointIndex != -1) {
                 if (mouseState == leftDown) {
                     controlPoints[splinePointIndex].SetPositionKeepLocal(mx, my, controlPointIndex);
@@ -141,22 +163,46 @@ int main() {
                     controlPoints[splinePointIndex].SetPosition(mx, my, controlPointIndex);
                 }
             }
+            
+            if (camIndex != -1) {
+                cams[camIndex].x = mx;
+                cams[camIndex].y = my;
+                if (mouseState == leftDown) {
+                    cams[camIndex].GetRays(spline, tInc);
+                } else if (mouseState == rightDown) {
+                    cams[camIndex].rays.clear();
+                }
+            }
         } else {
             splinePointIndex = -1;
             controlPointIndex = -1;
+            camIndex = -1;
         }
         window.clear();
         spline.SetControlPoints(controlPoints);
-        DrawSpline(window, spline, controlPointRadius, Color(255, 255, 255));
+        DrawSpline(window, spline, controlPointRadius, tInc, Color(255, 255, 255));
+        DrawCameras(window, cams, controlPointRadius, numOfCams, Color(100, 100, 100));
         window.display();
     }
 }
 
-void DrawSpline(RenderWindow &window, Spline2D spline, double controlPointRadius = 5.0, Color color = Color(255, 255, 255)) {
+void DrawCameras(RenderWindow &window, vector<Camera> cams, double controlPointRadius, const int numOfCams, Color color) {
+    for (int i = 0; i < numOfCams; i++) {
+        for (int j = 0; j < cams[i].rays.size(); j++) {
+            window.draw(VectorLine(cams[i], cams[i] + cams[i].rays[j], color));
+        }
+        CircleShape p(controlPointRadius);
+        p.setOrigin(controlPointRadius, controlPointRadius);
+        p.setFillColor(Color(255, 255, 255));
+        p.setPosition(cams[i].x, cams[i].y);
+        window.draw(p);
+    }
+}
+
+void DrawSpline(RenderWindow &window, Spline2D spline, double controlPointRadius = 5.0, double tInc = 0.001, Color color = Color(255, 255, 255)) {
     vector<Color> controlPointColors = {Color(255, 0, 0), Color(255, 255, 0), Color(0, 255, 0), Color(0, 255, 255), Color(0, 0, 255), Color(255, 0, 255)};
     Vector2D last = spline.Get(0), current(0, 0);
-    double tInc = 0.001;
-    for (double t = tInc; t < 1; t+=tInc) {
+    for (double t = tInc; t <= 1; t+=tInc) {
         current = spline.Get(t);
         window.draw(VectorLine(last, current, color));
         last = current;

@@ -97,7 +97,7 @@ Vector2D Spline2D::Get(double p) {
     }
     double distanceAlongPath = p * length;
     for (int i = 0; i < curveLengths.size(); i++) {
-        if (distanceAlongPath - curveLengths[i] > 0) {
+        if (distanceAlongPath - curveLengths[i] >= 0) {
             distanceAlongPath -= curveLengths[i];
         } else {
             double t = distanceAlongPath / curveLengths[i];
