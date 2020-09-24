@@ -37,7 +37,7 @@ int main() {
     int width = 800;
     int height = 800;
     bool reverse = false;
-    double tInc = 1.0/500;
+    double tInc = 1.0/10;
     
     enum State {leftDown, rightDown, up};
     State mouseState = up;

@@ -19,6 +19,7 @@ public:
     
     Camera(int, int);
     void GetRays(Spline2D&, double);
+    double mod2PI(double);
     bool intersection(double, double, double, double, double, double, double, double);
     
 };
