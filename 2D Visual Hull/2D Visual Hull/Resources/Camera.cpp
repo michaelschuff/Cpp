@@ -70,9 +70,9 @@ void Camera::GetRays(Spline2D &spline, double tInc) {
         }
         
     }
-    rays.clear();
-    rays.push_back(ma);
-    rays.push_back(mi);
+//    rays.clear();
+//    rays.push_back(ma);
+//    rays.push_back(mi);
     rays.push_back(sum);
 }
 

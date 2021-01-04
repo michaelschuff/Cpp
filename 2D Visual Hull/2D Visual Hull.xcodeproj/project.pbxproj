@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C132731251BB18E00C1D4F8 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C132730251BB18E00C1D4F8 /* ResourcePath.mm */; };
 		4C132734251BB18E00C1D4F8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C132733251BB18E00C1D4F8 /* main.cpp */; };
-		4C132737251BB18E00C1D4F8 /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C132736251BB18E00C1D4F8 /* cute_image.jpg */; };
-		4C132739251BB18E00C1D4F8 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 4C132738251BB18E00C1D4F8 /* nice_music.ogg */; };
-		4C13273B251BB18E00C1D4F8 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C13273A251BB18E00C1D4F8 /* sansation.ttf */; };
-		4C13273D251BB18E00C1D4F8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C13273C251BB18E00C1D4F8 /* icon.png */; };
+		4C81E431251BEB390031D0FA /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E42F251BEB390031D0FA /* Vector2D.cpp */; };
+		4C81E435251BEB4D0031D0FA /* SplinePoint2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E433251BEB4D0031D0FA /* SplinePoint2D.cpp */; };
+		4C81E439251BEB5F0031D0FA /* Spline2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E437251BEB5F0031D0FA /* Spline2D.cpp */; };
+		4C81E43D251BEB6F0031D0FA /* MathFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E43B251BEB6F0031D0FA /* MathFunctions.cpp */; };
+		4C81E43F251BEBEA0031D0FA /* Vector2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E430251BEB390031D0FA /* Vector2D.hpp */; };
+		4C81E440251BEBEA0031D0FA /* SplinePoint2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E434251BEB4D0031D0FA /* SplinePoint2D.hpp */; };
+		4C81E441251BEBEA0031D0FA /* Spline2D.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E438251BEB5F0031D0FA /* Spline2D.hpp */; };
+		4C81E442251BEBEA0031D0FA /* MathFunctions.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E43C251BEB6F0031D0FA /* MathFunctions.hpp */; };
+		4C81E446251BEC160031D0FA /* Hamiltonian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E444251BEC160031D0FA /* Hamiltonian.cpp */; };
+		4C81E449251BEC350031D0FA /* Hamiltonian.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E445251BEC160031D0FA /* Hamiltonian.hpp */; };
+		4C81E44D251BF3770031D0FA /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C81E44B251BF3770031D0FA /* Camera.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,10 +27,18 @@
 		4C132730251BB18E00C1D4F8 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
 		4C132732251BB18E00C1D4F8 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
 		4C132733251BB18E00C1D4F8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4C132736251BB18E00C1D4F8 /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cute_image.jpg; path = ../cute_image.jpg; sourceTree = "<group>"; };
-		4C132738251BB18E00C1D4F8 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
-		4C13273A251BB18E00C1D4F8 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
-		4C13273C251BB18E00C1D4F8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		4C81E42F251BEB390031D0FA /* Vector2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2D.cpp; sourceTree = "<group>"; };
+		4C81E430251BEB390031D0FA /* Vector2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vector2D.hpp; sourceTree = "<group>"; };
+		4C81E433251BEB4D0031D0FA /* SplinePoint2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplinePoint2D.cpp; sourceTree = "<group>"; };
+		4C81E434251BEB4D0031D0FA /* SplinePoint2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplinePoint2D.hpp; sourceTree = "<group>"; };
+		4C81E437251BEB5F0031D0FA /* Spline2D.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Spline2D.cpp; sourceTree = "<group>"; };
+		4C81E438251BEB5F0031D0FA /* Spline2D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Spline2D.hpp; sourceTree = "<group>"; };
+		4C81E43B251BEB6F0031D0FA /* MathFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MathFunctions.cpp; sourceTree = "<group>"; };
+		4C81E43C251BEB6F0031D0FA /* MathFunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MathFunctions.hpp; sourceTree = "<group>"; };
+		4C81E444251BEC160031D0FA /* Hamiltonian.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hamiltonian.cpp; sourceTree = "<group>"; };
+		4C81E445251BEC160031D0FA /* Hamiltonian.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hamiltonian.hpp; sourceTree = "<group>"; };
+		4C81E44B251BF3770031D0FA /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		4C81E44C251BF3770031D0FA /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +91,18 @@
 		4C132735251BB18E00C1D4F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4C132736251BB18E00C1D4F8 /* cute_image.jpg */,
-				4C132738251BB18E00C1D4F8 /* nice_music.ogg */,
-				4C13273A251BB18E00C1D4F8 /* sansation.ttf */,
-				4C13273C251BB18E00C1D4F8 /* icon.png */,
+				4C81E44B251BF3770031D0FA /* Camera.cpp */,
+				4C81E42F251BEB390031D0FA /* Vector2D.cpp */,
+				4C81E433251BEB4D0031D0FA /* SplinePoint2D.cpp */,
+				4C81E437251BEB5F0031D0FA /* Spline2D.cpp */,
+				4C81E43B251BEB6F0031D0FA /* MathFunctions.cpp */,
+				4C81E444251BEC160031D0FA /* Hamiltonian.cpp */,
+				4C81E44C251BF3770031D0FA /* Camera.hpp */,
+				4C81E430251BEB390031D0FA /* Vector2D.hpp */,
+				4C81E434251BEB4D0031D0FA /* SplinePoint2D.hpp */,
+				4C81E438251BEB5F0031D0FA /* Spline2D.hpp */,
+				4C81E43C251BEB6F0031D0FA /* MathFunctions.hpp */,
+				4C81E445251BEC160031D0FA /* Hamiltonian.hpp */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -143,10 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C13273D251BB18E00C1D4F8 /* icon.png in Resources */,
-				4C13273B251BB18E00C1D4F8 /* sansation.ttf in Resources */,
-				4C132739251BB18E00C1D4F8 /* nice_music.ogg in Resources */,
-				4C132737251BB18E00C1D4F8 /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +173,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		4C132729251BB18E00C1D4F8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -166,9 +184,9 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -177,8 +195,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C81E449251BEC350031D0FA /* Hamiltonian.hpp in Sources */,
+				4C81E43F251BEBEA0031D0FA /* Vector2D.hpp in Sources */,
+				4C81E440251BEBEA0031D0FA /* SplinePoint2D.hpp in Sources */,
+				4C81E441251BEBEA0031D0FA /* Spline2D.hpp in Sources */,
+				4C81E44D251BF3770031D0FA /* Camera.cpp in Sources */,
+				4C81E442251BEBEA0031D0FA /* MathFunctions.hpp in Sources */,
+				4C81E446251BEC160031D0FA /* Hamiltonian.cpp in Sources */,
+				4C81E431251BEB390031D0FA /* Vector2D.cpp in Sources */,
+				4C81E435251BEB4D0031D0FA /* SplinePoint2D.cpp in Sources */,
+				4C81E43D251BEB6F0031D0FA /* MathFunctions.cpp in Sources */,
+				4C81E439251BEB5F0031D0FA /* Spline2D.cpp in Sources */,
 				4C132734251BB18E00C1D4F8 /* main.cpp in Sources */,
-				4C132731251BB18E00C1D4F8 /* ResourcePath.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
